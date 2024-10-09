@@ -3,23 +3,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World !");
-		
-		int age = 30;
-		String name = "Alice";
-		boolean isStudent = false;
-		System.out.println(name + " a " + age + " ans.");
-		
-		int[] numbers = {1, 2, 3, 4, 5};
-		for (int number : numbers) {
-			System.out.println(number);
-		}
-		
-		for (int i = 0; i < 5; i++) {
-			System.out.println("Compteur : " + i);
-		}
-		
+
 		Scanner myObj = new Scanner(System.in);
 		System.out.println("Entrez un numeros d'exercice");
 		System.out.println("Exercice 1 : \"La garde des fruits\"");
@@ -29,6 +13,24 @@ public class Main {
 		System.out.println("Exercice 5 : \"L'énigme du coffre-fort\" (avec tableaux)");
 		int numeroExercice = myObj.nextInt();
 		switch (numeroExercice) {
+		case 0:
+			// TODO Auto-generated method stub
+			System.out.println("Hello World !");
+			
+			int age = 30;
+			String name = "Alice";
+			boolean isStudent = false;
+			System.out.println(name + " a " + age + " ans.");
+			
+			int[] numbers = {1, 2, 3, 4, 5};
+			for (int number : numbers) {
+				System.out.println(number);
+			}
+			
+			for (int i = 0; i < 5; i++) {
+				System.out.println("Compteur : " + i);
+			}
+			
 		case 1:
 		//Exercice 1 : "La garde des fruits"
 		//Vous travaillez pour un marché local, et on vous demande de créer un programme qui aide à vérifier
