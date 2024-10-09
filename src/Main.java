@@ -67,11 +67,13 @@ public class Main {
 			}
 			break;
 		case 3:
-			//Exercice 3 : "La salle des trésors"
-			//Le gardien d'une salle des trésors vous demande de concevoir un système qui puisse afficher
-			//chaque jour le nombre de trésors comptabilisés. À chaque fois qu'un trésor est compté, il faut
-			//l'afficher sur l'écran avec une description spéciale pour les trésors comptés à des positions multiples
-			//de 3.				
+			/*
+			 * Exercice 3 : "La salle des trésors" Le gardien d'une salle des trésors vous
+			 * demande de concevoir un système qui puisse afficher chaque jour le nombre de
+			 * trésors comptabilisés. À chaque fois qu'un trésor est compté, il faut
+			 * l'afficher sur l'écran avec une description spéciale pour les trésors comptés
+			 * à des positions multiples de 3.
+			 */			
 			System.out.println("Exercice 3 : \"La salle des trésors");
 			System.out.println("Entrez le nombre de trésors comptabilisés");
 			
@@ -86,6 +88,7 @@ public class Main {
 		    	}
 		      }  
 			
+		    break;
 		case 4:
 			//Exercice 4 : "Le marathon de calculs" (avec tableaux)
 			//Vous travaillez pour une école qui organise un marathon de calculs. Les élèves doivent additionner
